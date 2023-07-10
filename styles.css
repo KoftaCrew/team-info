@@ -43,9 +43,19 @@ main {
 section {
   margin-bottom: 30px;
 }
+#team {
+  /* text-align: center; */
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+}
 
 .team-member {
+  display: inline-block;
   margin-bottom: 20px;
+  margin-right: 20px;
 }
 
 .team-member img {
